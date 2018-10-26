@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   // template: `<div class="bg-success p-2 text-center text-white">
   //                   This is SportsStore
   //              </div>`
-  template: "<store></store>"
+  template: "<router-outlet></router-outlet>"
 })
 export class AppComponent {
   title = 'app';
