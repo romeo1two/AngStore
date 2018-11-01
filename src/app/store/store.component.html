@@ -6,6 +6,7 @@
       </div>
     </div>
     <div class="row text-white">
+      
       <div class="col-3 p-2">
             <button class="btn btn-block btn-outline-primary" (click)="changeCategory()">
               Home
@@ -14,6 +15,9 @@
                     class="btn btn-outline-primary btn-block"
                     [class.active]="cat == selectedCategory" (click)="changeCategory(cat)">
               {{cat}}
+            </button>
+            <button class="btn btn-block btn-danger m-t-3" routerLink="/admin">
+              Admin
             </button>
       </div>
       <div class="col-9 p-2">
